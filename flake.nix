@@ -14,13 +14,9 @@
       {
         devShells.default = pkgs.mkShell {
           packages = with pkgs; [
-            cilium-cli
-            clusterctl
-            fluxcd
             k9s
             kind
             kubectl
-            tilt
             yq
           ];
         };
